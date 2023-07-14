@@ -1,8 +1,9 @@
 
 function iniciarTime(iniciaJogo: boolean){
-    var nome = 'Messi e amigos';
+    let nome: string = 'Messi e amigos';
+    let cidade: string = 'em São Paulo';
     if(iniciaJogo){
-        var cidade = 'em Uberlândia';
+        cidade = 'em Uberlândia';
     }
 
     console.log(`${nome} vão jogar ${cidade}`);     
