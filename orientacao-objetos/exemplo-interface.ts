@@ -1,6 +1,6 @@
 interface Pessoa{
     idade: number;
-    sexo?: string; //o interrogação define que não é obrigatorio o sexo
+    sexo?: string; //o interrogação define que não é obrigatorio a propriedade sexo
 }
 
 function imprimirPessoa(pessoa: Pessoa){
